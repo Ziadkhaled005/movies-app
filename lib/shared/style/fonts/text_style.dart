@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import '../colors/app_colores.dart';
 
 class AppTextStyle {
   static final TextStyle bodyLarge = GoogleFonts.poppins( 
@@ -17,6 +16,6 @@ class AppTextStyle {
   static final TextStyle bodySmall = GoogleFonts.poppins( 
     fontSize: 8, 
     fontWeight: FontWeight.w500, 
-    color: AppColors.selectedIconColor
+    color: Colors.black
   );
 }

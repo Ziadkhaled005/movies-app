@@ -12,8 +12,10 @@ class AppTheme {
         type: BottomNavigationBarType.shifting,
         selectedIconTheme:
             const IconThemeData(color: AppColors.selectedIconColor),
-        selectedLabelStyle: AppTextStyle.bodySmall.copyWith(color: AppColors.selectedIconColor),
-        unselectedLabelStyle: AppTextStyle.bodySmall.copyWith(color: AppColors.unSelectedIconColor),
+        selectedLabelStyle: AppTextStyle.bodySmall,
+        unselectedLabelStyle: AppTextStyle.bodySmall,
+        unselectedItemColor: AppColors.unSelectedIconColor,
+        selectedItemColor: AppColors.selectedIconColor,
         unselectedIconTheme:
             const IconThemeData(color: AppColors.unSelectedIconColor),
         elevation: 0,
